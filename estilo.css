@@ -1,0 +1,132 @@
+
+
+
+body{
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+}
+
+header{
+    background: green;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
+
+nav{
+    background: lightblue;
+    height: 50px;
+}
+
+article h2{
+    background: rgb(28, 129, 163);
+    height: 40px;
+    color: white;
+}
+
+.article h3{
+    background: blue;
+    color: white;
+    margin-top: 50px;
+    
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+
+aside{
+    width: 250px;
+    height: 210px;
+    background: lightgreen;
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.slide{    
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+.slide ul{
+    display: flex;
+    width: 50%;
+    animation: slide 35s infinite cubic-bezier(0.55, 4.48, 0.37, 0.92);
+    list-style: none;
+}
+
+
+@keyframes slide{
+        70% {transform: translateX(0%); margin-inline-start: -10%}
+
+        70% {transform: translateX(-100%); margin-inline-start: -1%}
+    }
+
+        /*0% {
+            transform: translateX(0);     /* Inicia en la posición original */
+       /*}
+        100% {
+            transform: translateX(-100%); /* Mueve el ul hacia la izquierda */
+        /*}
+}*/
+
+
+.icon {
+    width: 22px; /* Ajusta el tamaño del icono */
+    height: 22px; /* Ajusta el tamaño del icono */
+    border-radius: 70px;
+}
+
+.turnos label{
+    margin-right: 20px;
+
+}
+
+
+footer p {
+    margin: 0; /* Elimina el margen del párrafo */
+    text-align: center; /* Centra el texto en el contenedor */    
+}
+
+
+footer{
+    margin-top: 30px;
+    height: 60px;
+    width: 100%;
+}
+
+
+.label h2{
+    background: lightseagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+
+
+*{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
